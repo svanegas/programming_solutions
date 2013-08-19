@@ -1,2 +1,0 @@
-competitive_programming
-=======================
