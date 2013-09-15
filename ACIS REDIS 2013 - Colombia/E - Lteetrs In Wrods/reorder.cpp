@@ -21,21 +21,12 @@
 using namespace std;
 
 int n;
-vector <string> dictionary;
-vector <string> original;
+map <string, string> dictionary;
 
 string
 setup(string s) {
-    sort(s.begin()+1, s.end()-1);
+    sort(s.begin(), s.end());
     return s;    
-}
-
-string
-find(string s) {
-    for (int i = 0; i < dictionary.size(); i++) {
-        if (dictionary[i] == s) return original[i];   
-    }
-    return "";
 }
 
 int
@@ -44,26 +35,25 @@ main() {
     getchar();
     string line, palabras;
     while (n--) {
+        dictionary.clear();
         getline(cin, line);
         getline(cin, palabras);
         stringstream ss(line);
         stringstream ss2(palabras);
         string word;
         while (ss >> word) {
-            dictionary.push_back(setup(word));
-            original.push_back(word);
+            string ordered = setup(word);
+            if (dictionary[ordered] == "") dictionary[ordered] = word;
         }
         //Procesamos las palabras desordenadas
         ss2 >> word;
-        string buscar = setup(word);
-        string poner = find(buscar);
-        if (poner == "") poner = word;
-        cout << poner;
+        string resp = dictionary[setup(word)];
+        if (resp != "") cout << resp;
+        else cout << word;
         while (ss2 >> word) {
-            buscar = setup(word);
-            poner = find(buscar);
-            if (poner == "") poner = word;
-            cout << " " << poner;
+            resp = dictionary[setup(word)];
+            if (resp != "") cout << " " << resp;
+            else cout << " " << word;
         }
         puts("");
     }
