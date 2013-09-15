@@ -56,10 +56,12 @@ main() {
         //Procesamos las palabras desordenadas
         ss2 >> word;
         string buscar = setup(word);
-        cout << find(buscar);
+        string poner = find(buscar);
+        if (poner == "") poner = word;
+        cout << poner;
         while (ss2 >> word) {
-            string buscar = setup(word);
-            string poner = find(buscar);
+            buscar = setup(word);
+            poner = find(buscar);
             if (poner == "") poner = word;
             cout << " " << poner;
         }
