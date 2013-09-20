@@ -25,7 +25,9 @@ map <string, string> dictionary;
 
 string
 setup(string s) {
-    sort(s.begin(), s.end());
+    if (s.size() >= 4) {
+        sort(s.begin()+1, s.end()-1);
+    }
     return s;    
 }
 
