@@ -1,0 +1,19 @@
+Caso #1:
+8
+Comprar otra blusa
+
+Caso #2:
+2 7 8
+2 7
+
+Caso #3:
+6
+
+Caso #4:
+8
+Comprar otra blusa
+
+Caso #5:
+2 7 8
+2 7
+
