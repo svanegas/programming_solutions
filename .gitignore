@@ -13,3 +13,5 @@
 *.a
 /Hint codes/Exponentiation/nbproject/private/
 /Hint codes/Exponentiation/build/
+
+*.exe

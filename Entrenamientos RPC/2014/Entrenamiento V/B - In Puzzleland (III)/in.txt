@@ -1,0 +1,30 @@
+3
+12 14
+A B C D E F U V W X Y Z
+A F
+A V
+B U
+B W
+C D
+C V
+D Y
+D W
+E X
+E Z
+F U
+F Y
+U Z
+W X
+
+3 2
+A B C
+A B
+A C
+
+4 5
+L N I K
+L N
+I L
+I N
+K N
+K I

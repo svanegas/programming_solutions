@@ -1,0 +1,15 @@
+A: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1895
+
+C: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2663
+
+D: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1852
+
+E: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1304
+
+F: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1268
+
+G: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1275
+
+H: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=762
+
+I: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2864

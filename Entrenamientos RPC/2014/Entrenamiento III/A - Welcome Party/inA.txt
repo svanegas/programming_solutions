@@ -1,0 +1,46 @@
+8
+Stephen Cook
+Andres Zulu
+Vinton Cerf
+Edmund Clarke
+Judea Pearl
+Shafi Goldwasser
+Silvio Micali
+Victor Xray
+9
+Richard Hamming
+Marvin Minskey
+John McCarthy
+Edsger Dijkstra
+Donald Knuth
+Michael Rabin
+John Backus
+Robert Floyd
+Tony Hoare
+6
+Stephen Cook
+Vinton Cerf
+Edmund Clarke
+Judea Pearl
+Shafi Goldwasser
+Silvio Micali
+11
+Richard Hamming
+Marvin Minskey
+John McCarthy
+Nicolas Sarcosi
+Edsger Dijkstra
+Donald Knuth
+Michael Rabin
+John Backus
+Robert Floyd
+Tony Hoare
+Patrick Yankee
+6
+Y C
+Y C
+Y C
+S G
+Y M
+Y P
+0

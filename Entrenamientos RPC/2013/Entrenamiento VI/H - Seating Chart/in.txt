@@ -1,0 +1,9 @@
+3
+Frodo Sam Bilbo
+Sam Frodo Bilbo
+5
+A B C D E
+B A D E C
+3
+MARIO BERTO PETU
+BERTO PETU MARIO
