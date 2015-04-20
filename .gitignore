@@ -15,3 +15,7 @@
 /Hint codes/Exponentiation/build/
 
 *.exe
+
+*.*~
+*~
+
