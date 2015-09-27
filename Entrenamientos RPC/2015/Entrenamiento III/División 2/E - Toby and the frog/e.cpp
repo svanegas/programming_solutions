@@ -38,24 +38,24 @@ template <class T> string toStr(const T &x)
 template <class T> int toInt(const T &x)
 { stringstream s; s << x; int r; s >> r; return r; }
 
-typedef long long ll;
-const int MAXN = 1005;
-const ll MOD = 1000007LL;
-int n, m;
-ll dp[MAXN], sum[MAXN];
+const int MAXN = 5005;
+const int MAXS = 12;
+int t, n;
+double dp[MAXS][MAXN];
 
 int
 main() {
-  dp[0] = 1LL;
-  sum[0] = 1LL;
-  for (int i = 1; i < MAXN; ++i) {
-    dp[i] = ((dp[i - 1] % MOD) * 2LL) % MOD;
-    sum[i] = ((sum[i - 1] % MOD) + (dp[i] % MOD)) % MOD;
+  for (int i = 1; i <= 10; ++i) {
+    for (int j = 0; j < MAXN; ++j) {
+      dp[i][j] = (j * 1.0) / (i * 1.0);
+    }
   }
-  while (scanf("%d %d", &n, &m) && n != -1) {
-    ll ans = sum[m] % MOD;
-    if (n - 1 >= 0) ans -= (sum[n-1] % MOD);
-    printf("%lld\n", (ans + MOD) % MOD);
+  double ans = 0.0;
+  for (int i = 1; i <= 10; ++i) {
+    cout << dp[i][10] << " ";
+    ans += dp[i][10];
   }
+  cout << endl;
+  cout << "ans: " << ans / 10.0 << endl;
+  return 0;
 }
-
