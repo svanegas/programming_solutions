@@ -1,0 +1,9 @@
+8
+aaaa 3
+ababab 4
+cdabcdab 5
+qwertyuiop 2
+abcabcabcabcx 5
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 2
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 1
+aa 1
