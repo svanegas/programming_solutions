@@ -34,7 +34,7 @@ kadane() {
 void
 find_max_sum() {
   ll sum, max_sum = -INF;
-  for (int i = 0; i < r; ++i) {
+  for (int i = 0; i < c; ++i) {
     memset(arr, 0, sizeof(arr));
     for (int j = i; j < c; ++j) {
       for (int k = 0; k < r; ++k) arr[k] += m[k][j];
